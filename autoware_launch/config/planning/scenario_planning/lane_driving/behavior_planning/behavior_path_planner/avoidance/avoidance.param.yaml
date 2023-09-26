@@ -21,7 +21,7 @@
       use_adjacent_lane: true
       use_opposite_lane: true
       use_intersection_areas: true
-      use_hatched_road_markings: true
+      use_hatched_road_markings: false
 
       # for debug
       publish_debug_marker: false
