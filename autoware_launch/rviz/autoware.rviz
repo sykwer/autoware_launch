@@ -2541,6 +2541,19 @@ Visualization Manager:
           Name: Control
       Enabled: false
       Name: Debug
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: MarkerArray
+      Namespaces:
+        msg: true
+        sphere: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /control/vehicle_cmd_gate/is_filter_activated/marker
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 10; 10; 10
