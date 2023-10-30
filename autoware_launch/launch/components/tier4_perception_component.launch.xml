@@ -22,7 +22,7 @@
     <arg name="traffic_light_recognition/fusion_only" value="$(var traffic_light_recognition/fusion_only)"/>
     <arg name="external/traffic_signals" value="/v2x/traffic_signals"/>
     <arg name="remove_unknown" value="false"/>
-    <arg name="trust_distance" value="100.0"/>
+    <arg name="fusion_distance" value="100.0"/>
 
     <!-- object recognition -->
     <arg
