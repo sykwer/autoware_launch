@@ -40,8 +40,8 @@ def generate_launch_description():
     pointcloud_container = ComposableNodeContainer(
         name=LaunchConfiguration("container_name"),
         namespace="/",
-        package="rclcpp_components",
-        executable=LaunchConfiguration("container_executable"),
+        package="rclcpp_component_container_callback_isolated",
+        executable="component_container_callback_isolated",
         composable_node_descriptions=[],
         output="screen",
     )
